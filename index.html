@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skater</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+
+</head>
+
+<body style="background-color: #292929;">
+ 
+
+    <section id="header">
+    <div class="navbar" style="margin-right: 10%; margin-left: 10%;">
+      <div class="navbar-brand" style="float: left; font-family: 'Encode Sans', sans-serif;">
+        <h1 style="color: #FFA500; font-weight: 500px; font-size: 170%;">SKATER</h1>
+      </div>
+      <div class="navbar-links" style="float: right; font-family: 'Roboto', sans-serif;">
+        <ul class="nav-links" style="list-style-type: none; font-size: 120%;">
+          <li style="display: inline;">
+            <a href="#" class="nav-item" style="color: #FFA500; text-decoration: none; margin-left: -35%; margin-right: 5%;">Home</a>
+          </li>
+          <li style="display: inline;">
+            <a href="#" class="nav-item" style="text-decoration: none; margin-right: 5%; color: #BDBDBD;">Services</a>
+          </li>
+          <li style="display: inline;">
+            <a href="#" class="nav-item" style="text-decoration: none; margin-right: 5%; color: #BDBDBD;">About</a>
+          </li>
+          <li style="display: inline;">
+            <a href="#" class="nav-item" style="text-decoration: none; margin-right: 5%; color: #BDBDBD;">Testimonials</a>
+          </li>
+          <li style="display: inline;">
+            <a href="#" class="nav-item" style="text-decoration: none; margin-right: 5%; color: #BDBDBD;">Blog</a>
+          </li>
+          <li style="display: inline;">
+            <a href="#" class="nav-item" style="text-decoration: none; margin-right: 5%; color: #BDBDBD;">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </section>
+
+    <section id="img-area">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+  <img src="./vid.jpg" style="width: 110.5%; height: 50%; margin-left: -10%;">
+  <div class="img-text" style="text-align: center; margin-top: -45%; margin-bottom: 40%; margin-left: 17%; margin-right: 17%; color: white;">
+   <h2 style="font-size: 300%;">HI I'M JOHN AND I SKATE A LOT</h2>
+   <p style="font-size: 25px; text-align: center;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, modi! Saepe voluptatum cumque necessitatibus in.</p>
+   <button type="submit" style="height: 40px; width: 15%; border-radius: 10%; border-style: none; box-shadow: none; background-color: transparent; border-style: solid; border-color: #52595D; color: #FFA500; font-size: 18px;">Get in Touch</button>
+  </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="body">
+
+      <!-- Js Code -->
+      <script>
+        // Current Year
+        const date = new Date();
+        const currentYear = date.getFullYear();
+
+        // Copy Right P Tag
+
+        const copyRightCode = "&copy;";
+        const span = "by <span>Colorlib</span>";
+        let copyRightText = $(document).ready(function(){
+          $(".copy-right").html("Copyright "  + copyRightCode + currentYear + "All rights reserved | This template is made with");
+        });
+
+      </script>
+      <!-- !JS Code -->
+
+      <!-- Font Awesome Icons -->
+      <script src="https://kit.fontawesome.com/" crossorigin="anonymous"></script>
+      <!-- !Font Awesome Iocns -->
+
+        <div>
+            <div class="row">
+                <!-- Services -->
+                <div class="services" style="text-align: center; margin-left: 20%; margin-right: 20%; margin-top: 5%; font-family: 'Encode Sans', sans-serif;">
+                    <h3 style="color: #FFA500; font-family: 'Roboto', sans-serif; font-size: 170%;">SERVICES</h3>
+                    <P style="font-family: 'Noto Sans Display', sans-serif;color: #52595D; margin-left: 15%; margin-right: 15%; font-size: 120%;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores eos sapiente dolores iusto est nostrum, ullam eum odio iste at reiciendis rerum exercitationem fuga sed reprehenderit numquam dicta maiores expedita.</P>
+                </div>
+                <!-- !Services -->
+
+                <!-- Skate Level -->
+                <div class="skate-difficulty" style="margin-left: 17%; margin-right: 17%; text-align: left; font-family: 'Encode Sans', sans-serif; margin-top: 10%; font-size: 110%;">
+                  <div>
+                    <div style="float: left; width: 33.33%;">
+                      <h2 style="color: #BDBDBD;">SKATE FOR BEGINNER</h2>
+                      <P style="color: #52595D;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. aperiam molestias ipsum, minima aliquam eligendi</P>
+                    </div>
+                    <div style="float: right; width: 33.33%;">
+                    <h2 style="color: #BDBDBD;">BEST SKATER</h2>
+                    <P style="color: #52595D;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. aperiam molestias ipsum, minima aliquam eligendi</P>
+                    </div>
+                    <div style="float: right; width: 33.33%;">
+                      <h2 style="color: #BDBDBD;">PERSONAL TRAINING</h2>
+                      <P style="color: #52595D;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. aperiam molestias ipsum, minima aliquam eligendi</P>
+                   </div>
+                  </div>
+                  <div>
+                    <div style="float: left; width: 33.33%;">
+                      <h2 style="color: #BDBDBD;">ADVANCE SKATER</h2>
+                      <P style="color: #52595D;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. aperiam molestias ipsum, minima aliquam eligendi</P>
+                    </div>
+                    <div style="float: right; width: 33.33%;">
+                      <h2 style="color: #BDBDBD;">SKATE BOARDING</h2>
+                      <P style="color: #52595D;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. aperiam molestias ipsum, minima aliquam eligendi</P>
+                    </div>
+                    <div style="float: right; width: 33.33%;">
+                      <h2 style="color: #BDBDBD;">NOVICE TO PRO SKATER</h2>
+                      <P style="color: #52595D;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. aperiam molestias ipsum, minima aliquam eligendi</P>  
+                    </div>
+                  </div>
+                </div>
+                <!-- !Skate Level -->
+
+                <!-- Best Performance -->
+                <div class="performance" style="margin-left: 17%; margin-right: 17%; margin-top: 40%; font-family: 'Encode Sans', sans-serif;">
+                  <div style="float: left; width: 50%;">
+                    <div class="img-area">
+                      <img src="./img1.jpg" alt="skate" style="width: 90%;">
+                    </div>
+                  </div>
+                  <div style="float: right; width: 50%;">
+                    <div class="text">
+                      <h2 style="color: #FFA500;">MY BEST PERFORMANCE</h2>
+                      <p style="color: #BDBDBD;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nam provident mollitia vel placeat, voluptatibus dignissimos ratione reiciendis commodi, cumque corrupti, odio suscipit modi ullam quasi vero ut blanditiis nemo.</p>
+                      <p style="color: #BDBDBD;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse inventore delectus consequatur sequi? Voluptate facere labore eum error.</p>
+                      <div class="check">
+                        <p style="color: #BDBDBD;"> <span style="margin-right:2.5%;"><i class="fa fa-check" aria-hidden="true" style="font-size: 120%; color: #FFA500;"></i></span>Lorem ipsum dolor sit amet.</p>
+                        <p style="color: #BDBDBD;"> <span style="margin-right:2.5%;"><i class="fa fa-check" aria-hidden="true" style="font-size: 120%; color: #FFA500;"></i></span>Lorem ipsum dolor sit amet.</p>
+                        <p style="color: #BDBDBD;"> <span style="margin-right:2.5%;"><i class="fa fa-check" aria-hidden="true" style="font-size: 120%; color: #FFA500;"></i></span>Lorem ipsum dolor sit amet.</p>
+                        <p style="color: #BDBDBD;"> <span style="margin-right:2.5%;"><i class="fa fa-check" aria-hidden="true" style="font-size: 120%; color: #FFA500;"></i></span>Lorem ipsum dolor sit amet.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- !Best performance -->
+
+                <!-- My Best Mentor -->
+                <div class="mentor" style="margin-left: 17%; margin-right: 17%; font-family: 'Encode Sans', sans-serif; margin-top: 20%;">
+                  
+                  <div style="float: left; width: 50%;">
+                    <div class="text">
+                      <h2 style="color: #FFA500;">MY BEST MENTOR</h2>
+                      <P style="color: #BDBDBD;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus eligendi illo labore, repellat nihil alias libero possimus sit magni rerum!</P>
+                      <p style="color: #BDBDBD;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi saepe molestiae iste vel distinctio deleniti. Non iste ducimus accusamus iure?</p>
+                      <p style="color: #BDBDBD;"><span style="margin-right:2.5%;"><i class="fa fa-check" aria-hidden="true" style="font-size: 120%; color: #FFA500;"></i></span>Lorem ipsum dolor sit amet.</p>
+                      <p style="color: #BDBDBD;"><span style="margin-right:2.5%;"><i class="fa fa-check" aria-hidden="true" style="font-size: 120%; color: #FFA500;"></i></span>Lorem ipsum dolor sit amet.</p>
+                      <p style="color: #BDBDBD;"><span style="margin-right:2.5%;"><i class="fa fa-check" aria-hidden="true" style="font-size: 120%; color: #FFA500;"></i></span>Lorem ipsum dolor sit amet.</p>
+                      <p style="color: #BDBDBD;"><span style="margin-right:2.5%;"><i class="fa fa-check" aria-hidden="true" style="font-size: 120%; color: #FFA500;"></i></span>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                  </div>
+
+                  <div style="float: right; width: 50%;">
+                    <div class="img-area">
+                      <img src="./img1.jpg" alt="skate" style="width: 90%;">
+                    </div>
+                  </div>
+                </div>
+                <!-- !My Best Mentor -->
+
+                <!-- Video Area -->
+                <div class="vid-area" style="margin-left: 17%; margin-right: 17%; margin-top: 30%; font-family: 'Encode Sans', sans-serif;">
+                  <div class="vid-img">
+                    <img src="./vid.jpg" alt="skate-walk" style="width: 90%; margin-left: 5%; margin-bottom: 7%; margin-top: 20%;">
+                  </div>
+                  <div class="stats" style="font-size: 120%;">
+                    <div style="width: 25%; float: left; text-align: center;">
+                      <h2 style="color: #FFA500;">30+</h2>
+                      <hr style="width: 15%; color: #52595D;">
+                      <p style="color: #BDBDBD;">Year of Experience</p>
+                    </div>
+                    <div style="width: 25%; float: right; text-align: center;">
+                      <h2 style="color: #FFA500;">1,500+</h2>
+                      <hr style="width: 15%; color: #52595D;">
+                      <p style="color: #BDBDBD;">Number of Members</p>
+                    </div>
+                    <div style="width: 25%; float: right; text-align: center;">
+                      <h2 style="color: #FFA500;">4+</h2>
+                      <hr style="width: 15%; color: #52595D;">
+                      <p style="color: #BDBDBD;">Number of Trainer</p>
+                    </div>
+                    <div style="width: 25%; float: right; text-align: center;">
+                      <h2 style="color: #FFA500;">4+</h2>
+                      <hr style="width: 15%; color: #52595D;">
+                      <p style="color: #BDBDBD;">Expert Trainer</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- !Video Area -->
+
+                <!-- Our Team -->
+                <div class="our-team" style="margin-left: 19%; margin-right: 17%; text-align: center; margin-top: 20%; font-family: 'Encode Sans', sans-serif;">
+                  <div class="team-head" style="margin-bottom: 5%; margin-left: 20%; margin-right: 20%;">
+                    <h1 style="color: #FFA500;">OUR TEAM</h1>
+                    <p style="color: #BDBDBD;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eum voluptate quos rerum consequatur quidem totam officiis, labore dolores consectetur!</p>
+                  </div>
+                  <div class="team-body">
+                    <div style="width: 33.33%; float: left;">
+                      <div class="jean" style=" background-color: #52595D; border-radius: 7px; padding: 15px; width: 200px; margin: 16px;">
+                        <div class="img">
+                          <img src="./man.jpg" alt="man" style="width: 50%; border-radius: 100%;">
+                        </div>
+                        <div class="jean-info">
+                          <h2 style="color: #FFA500;">JEAN SMITH</h2>
+                          <p style="color: #BDBDBD;">SKATEBOARD TRAINER</p>
+                          <i class="fa fa-facebook-official fa-2x" aria-hidden="true" style="margin-right: 5%; color: #FFA500;"></i>
+                          <i class="fa fa-twitter-square fa-2x" aria-hidden="true" style="margin-right: 5%; color: #FFA500;"></i>
+                          <i class="fa fa-instagram fa-2x" aria-hidden="true"  style=" color: #FFA500;"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div style="width: 33.33%; float: right;">
+                      <div class="ricky" style=" background-color: #52595D; border-radius: 7px; padding: 15px; width: 200px; margin: 16px;">
+                        <div class="img">
+                          <img src="./man.jpg" alt="man" style="width: 50%; border-radius: 100%;">
+                        </div>
+                        <div class="rick-info">
+                          <h2 style="color: #FFA500;">RICKY FISHER</h2>
+                          <p style="color: #BDBDBD;">SKATEBOARD TRAINER</p>
+                          <i class="fa fa-facebook-official fa-2x" aria-hidden="true" style="margin-right: 5%; color: #FFA500;"></i>
+                          <i class="fa fa-twitter-square fa-2x" aria-hidden="true" style="margin-right: 5%; color: #FFA500; border-style: none;"></i>
+                          <i class="fa fa-instagram fa-2x" aria-hidden="true" style="color: #FFA500;"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div style="float: right; width: 33.33%;">
+                      <div class="bob" style=" background-color: #52595D; border-radius: 7px; padding: 15px; width: 200px; margin: 16px;">
+                        <div class="img">
+                          <img src="./man.jpg" alt="man" style="width: 50%; border-radius: 100%;">
+                        </div>
+                        <div class="bob-info">
+                          <h2 style="color: #FFA500;">BOB CARRY</h2>
+                          <p style="color: #BDBDBD;">SKATEBOARD TRAINER</p>
+                          <i class="fa fa-facebook-official fa-2x" aria-hidden="true" style="margin-right: 5%; color: #FFA500;"></i>
+                          <i class="fa fa-twitter-square fa-2x" aria-hidden="true" style="margin-right: 5%; color: #FFA500;"></i>
+                          <i class="fa fa-instagram fa-2x" aria-hidden="true" style=" color: #FFA500;"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- !Our Team -->
+
+                <!-- session Pricing -->
+                  <div class="session-pricing" style="margin-left: 17%; margin-right: 10%; margin-top: 35%; margin-bottom: 10%;font-family: 'Encode Sans', sans-serif;">
+                    <div class="session-head" style="text-align: center;">
+                      <h2 style="color: #FFA500; margin-top: 30%;">SESSION PRICING</h2>
+                      <p style="margin-left: 25%; margin-right: 25%; color: #52595D;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, fuga. Ex perspiciatis deserunt facere iure minima eligendi reprehenderit iste dolores.</p>
+                    </div>
+                    <div class="pricing" style="margin-top: 5%; text-align: center;">
+                      <div style="float: left; width: 33.33%;">
+                        <div class="basic" style=" background-color: #52595D; border-radius: 7px; padding: 10px; width: 250px; margin: 16px;">
+                          <div class="basic-head">
+                            <h2 style="color: #BDBDBD;">BASIC</h2>
+                            <P style="color: #292929;"><span style="color: #FFA500; font-size: 40px;">$47</span> / year</P>
+                          </div>
+                          <div class="basic-body style="text-align: center;"">
+                            <p> <span><i class="fa fa-check" aria-hidden="true" style="color: #00ff00; margin-right: 5%; font-size: 150%;"></i></span> Lorem ipsum dolor sit amet. </p>
+                            <p> <span><i class="fa fa-check" aria-hidden="true" style="color: #00ff00; margin-right: 5%; font-size: 150%;"></i></span> Lorem ipsum dolor sit amet. </p>
+                            <p> <span><i class="fa fa-check" aria-hidden="true" style="color: #00ff00; margin-right: 5%; font-size: 150%;"></i></span> Lorem ipsum dolor sit amet. </p>
+                            <p> <span><i class="fa fa-check" aria-hidden="true" style="color: #00ff00; margin-right: 5%; font-size: 150%;"></i></span> Lorem ipsum dolor sit amet. </p>
+                            <p> <span><i class="fa fa-check" aria-hidden="true" style="color: #00ff00; margin-right: 5%; font-size: 150%;"></i></span> Lorem ipsum dolor sit amet. </p>
+                            <button type="submit" style="margin-top: 5%; margin-bottom: 5%; border-style: none; border-radius: 10%; height: 30px; color: white; background-color: #292929;">Buy Now</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="float: right; width: 33.33%;">
+                        <div class="premium" style=" background-color: #52595D; border-radius: 7px; padding: 10px; width: 250px; margin: 16px;">
+                          <div class="premium-head">
+                            <h2 style="color: #BDBDBD;">PREMIUM</h2>
+                            <P style="color: #292929;"> <span style="color: #FFA500; font-size: 40px;">$750</span> / year </P>
+                          </div>
+                          <div class="premium-body">
+                            <p> <span><i class="fa fa-check" aria-hidden="true" style="color: #00ff00; margin-right: 5%; font-size: 150%;"></i></span> Lorem ipsum dolor sit amet. </p>
+                            <p> <span><i class="fa fa-check" aria-hidden="true" style="color: #00ff00; margin-right: 5%; font-size: 150%;"></i></span> Lorem ipsum dolor sit amet. </p>
+                            <p> <span><i class="fa fa-check" aria-hidden="true" style="color: #00ff00; margin-right: 5%; font-size: 150%;"></i></span> Lorem ipsum dolor sit amet. </p>
+                            <p> <span><i class="fa fa-check" aria-hidden="true" style="color: #00ff00; margin-right: 5%; font-size: 150%;"></i></span> Lorem ipsum dolor sit amet. </p>
+                            <p> <span><i class="fa fa-check" aria-hidden="true" style="color: #00ff00; margin-right: 5%; font-size: 150%;"></i></span> Lorem ipsum dolor sit amet. </p>
+                            <button type="submit" style="margin-top: 5%; margin-bottom: 5%; border-style: none; border-radius: 10%; height: 30px; color: white; background-color: #292929;">Buy Now</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="float: right; width: 33.33%;">
+                        <div class="professional" style=" background-color: #52595D; border-radius: 7px; padding: 10px; width: 250px; margin: 16px;">
+                          <div class="professional-head">
+                            <h2 style="color: #BDBDBD;">PROFESSIONAL</h2>
+                            <P style="color: #292929;"> <span style="color: #FFA500; font-size: 40px;">$200</span> / year </P>
+                          </div>
+                          <div class="professional-body">
+                            <p> <span><i class="fa fa-check" aria-hidden="true" style="color: #00ff00; margin-right: 5%; font-size: 150%;"></i></span> Lorem ipsum dolor sit amet. </p>
+                            <p> <span><i class="fa fa-check" aria-hidden="true" style="color: #00ff00; margin-right: 5%; font-size: 150%;"></i></span> Lorem ipsum dolor sit amet. </p>
+                            <p> <span><i class="fa fa-check" aria-hidden="true" style="color: #00ff00; margin-right: 5%; font-size: 150%;"></i></span> Lorem ipsum dolor sit amet. </p>
+                            <p> <span><i class="fa fa-check" aria-hidden="true" style="color: #00ff00; margin-right: 5%; font-size: 150%;"></i></span> Lorem ipsum dolor sit amet. </p>
+                            <p> <span><i class="fa fa-check" aria-hidden="true" style="color: #00ff00; margin-right: 5%; font-size: 150%;"></i></span> Lorem ipsum dolor sit amet. </p>
+                            <button type="submit" style="margin-top: 5%; margin-bottom: 5%; border-style: none; border-radius: 10%; height: 30px; background-color: #FFA500; color: white;">Buy Now</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <!-- !Session Pricing -->
+
+                <!-- Frequently Asked -->
+                <div class="question" style="margin-left: 20%; margin-right: 20%; margin-top: 45%; margin-bottom: 35%; font-family: 'Encode Sans', sans-serif;">
+                  <div class="question-head" style="margin-top: 5%; text-align: center;">
+                    <h2 style="color: #FFA500;">FREQUENTLY ASK QUESTIONS</h2>
+                  </div>
+                    <div style="float: left; width: 50%;">
+                      <h3 style="color: #FFA500;">CAN I ACCEPT BOTH PAYPAL AND STRIPE ?</h3>
+                      <P style="color: #BDBDBD;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et magni recusandae placeat! Eius.</P>
+                      <h3 style="color: #FFA500;">WHAT AVAILABLE IS REFUND PERIOD ?</h3>
+                      <P style="color: #BDBDBD;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et magni recusandae placeat! Eius.</P>
+                      <h3 style="color: #FFA500;">CAN I ACCEPT BOTH PAYPAL AND STRIPE ?</h3>
+                      <P style="color: #BDBDBD;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et magni recusandae placeat! Eius.</P>
+                      <h3 style="color: #FFA500;">WHAT AVAILABLE IS REFUND PERIOD ?</h3>
+                      <P style="color: #BDBDBD;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et magni recusandae placeat! Eius.</P>
+                    </div>
+                    <div style="float: right; width: 50%;">
+                      <h3 style="color: #FFA500;">WHERE ARE YOU FROM ?</h3>
+                      <P style="color: #BDBDBD;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et magni recusandae placeat! Eius.</P>
+                      <h3 style="color: #FFA500;">WAHT IS YOUR OPENING TIME ?</h3>
+                      <P style="color: #BDBDBD;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et magni recusandae placeat! Eius.</P>
+                      <h3 style="color: #FFA500;">CAN I ACCEPT BOTH PAYPAL AND STRIPE ?</h3>
+                      <P style="color: #BDBDBD;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et magni recusandae placeat! Eius.</P>
+                      <h3 style="color: #FFA500;">WHAT AVAILABLE IS REFUND PERIOD ?</h3>
+                      <P style="color: #BDBDBD;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et magni recusandae placeat! Eius.</P>
+                    </div>
+                </div>
+                <!-- !Frequently Asked -->
+
+                <!-- Testimonial -->
+                <!-- make slide -->
+                <div class="testtimonials" style="margin-left: 15%; margin-right: 15%; font-family: 'Encode Sans', sans-serif;">
+                  <h4 style="text-align: center; font-size: 190%; color: #FFA500; margin-bottom: 10%; ;">TESTIMONIALS</h4>
+                  <div style="float: left; width: 25%;">
+                    <div class="card">
+                    <div class="card-body" style="color: #BDBDBD; background-color: #52595D; border-radius: 7px; padding: 5px; width: 190px; margin: 16px;">
+                      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aspernatur magnam saepe ex ratione. Fuga alias iste odio ex iure. Corporis reiciendis nihil nemo quam. Atque omnis veniam ullam saepe. </p>
+                    </div>
+                    <div class="card-head">
+                      <img src="./man.jpg" alt="man" style="width: 25%; margin-left: 25%; border-radius: 100%;">
+                      <h5 style="text-align: center; margin-left: -25%;">MELLISA GRIFFIN</h5>
+                    </div>
+                    </div>
+                  </div>
+                  <div style="float: right; width: 25%;">
+                     <div class="card">
+                    <div class="card-head">
+                      <img src="./man.jpg" alt="man" style="width: 25%; margin-left: 25%; border-radius: 100%;">
+                      <h5 style="text-align: center; margin-left: -25%;">KEN DAVIS</h5>
+                    </div>
+                    <div class="card-body" style="color: #BDBDBD; background-color: #52595D; border-radius: 7px; padding: 5px; width: 190px; margin: 16px;">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo officiis veritatis ipsam quae autem voluptates minima quis et, ducimus in fugit error, iste eaque deserunt esse! Molestiae provident quam consequuntur. </p>
+                    </div>
+                    </div>
+                  </div>
+                  <div style="float: right; width: 25%;">
+                     <div class="card">
+                    <div class="card-body" style="color: #BDBDBD; background-color: #52595D; border-radius: 7px; padding: 5px; width: 190px; margin: 16px;">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aspernatur magnam saepe ex ratione. Fuga alias iste odio ex iure. Corporis reiciendis nihil nemo quam. Atque omnis veniam ullam saepe. </p>
+                    </div>
+                    <div class="card-head">
+                      <img src="./man.jpg" alt="man" style="width: 25%; margin-left: 25%; border-radius: 100%;">
+                      <h5 style="text-align: center; margin-left: -25%;">RICKY FISHER</h5>
+                    </div>
+                  </div>
+                  </div>
+                  <div style="float: right; width: 25%;">
+                    <div class="card">
+                    <div class="card-head">
+                      <img src="./man.jpg" alt="man" style="width: 25%; margin-left: 25%; border-radius: 100%;">
+                      <h5 style="text-align: center; margin-left: -25%;">ROBERT STEWARD</h5>
+                    </div>
+                    <div class="card-body" style="color: #BDBDBD; background-color: #52595D; border-radius: 7px; padding: 5px; width: 190px; margin: 16px;">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo officiis veritatis ipsam quae autem voluptates minima quis et, ducimus in fugit error, iste eaque deserunt esse! Molestiae provident quam consequuntur. </p>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- !Testimonial -->
+
+                <!-- Blog -->
+                <div class="blog" style="margin-left: 20%; margin-right: 20%; margin-top: 40%; margin-bottom: 10%; font-family: 'Encode Sans', sans-serif;">
+                  <div class="blog-head" style="text-align: center; margin-bottom: 10%;">
+                    <h5 style="color: #52595D; font-size: 10px; margin-bottom: -25px;">LATEST BLOG</h5>
+                    <h2 style="color: #FFA500; font-size: 30px;">OUR BLOG</h2>
+                  </div>
+                  <div style="width: 50%; float: left;">
+                    <img src="./img1.jpg" alt="skate" style="width: 90%; border-radius: 1.5%;">
+                    <h2 style="color: #FFA500;">HOW TO FIND GOLD IN MINING</h2>
+                    <P style="color: #52595D; font-size: 14px;">JANUARY 18, BY <span style="border-style: dotted; border-top: none; border-left: none; border-right: none; border-color: #52595D; color: black;">JAMES COOPER</span> </P>
+                    <p style="color: #52595D;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa reiciendis, tempora dicta, iusto cum earum necessitatibus sequi dolores labore deleniti neque rerum voluptate? Eius voluptatem corporis quos repudiandae voluptate. Ipsa.</p>
+                    <a href="#" style="text-decoration: none; color: #FFA500; font-size: 20px;">Read More</a>
+                  </div>
+                  <div style="width: 50%; float: right;">
+                    <img src="./img1.jpg" alt="skate" style="width: 90%; border-radius: 1.5%;">
+                    <h2 style="color: #FFA500;">HOW TO FIND GOLD IN MINING</h2>
+                    <P style="color: #52595D; font-size: 14px;">JANUARY 18, BY <span style="border-style: dotted; border-top: none; border-left: none; border-right: none; border-color: #52595D; color: black;">JAMES COOPER</span> </P>
+                    <p style="color: #52595D;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa reiciendis, tempora dicta, iusto cum earum necessitatibus sequi dolores labore deleniti neque rerum voluptate? Eius voluptatem corporis quos repudiandae voluptate. Ipsa.</p>
+                    <a href="#" style="text-decoration: none; color: #FFA500; font-size: 20px;">Read More</a>
+                  </div>
+                </div>
+                <!-- !Blog -->
+
+                <!-- Contact -->
+                <div class="contact" style="margin-left: 15%; margin-right: 20%; margin-top: 45%; font-size: 20px; font-family: 'Encode Sans', sans-serif;">
+                  <div class="contact-head" style="text-align: center; margin-bottom: 5%;">
+                    <h5 style="font-size: 10px; color: #52595D; margin-bottom: -20px;">GET IN TOUCH</h5>
+                    <h1 style=" font-size: 30px; color: #FFA500;">CONTACT ME</h1>
+                  </div>
+                  <div style="float: left; width: 60%;">
+                    <input type="text" name="name" placeholder="First Name" style="width: 33%; height: 29px; margin-bottom: 2.5%; border-radius: 2px; border-style: none; background-color: #52595D;">
+                    <input type="text" name="name" placeholder="First Name" style="width: 33%; height: 29px; border-radius: 2px; border-style: none; margin-bottom: 2.5%; background-color: #52595D;"> <br>
+                    <input type="email" name="email" placeholder="Email Address" style="width: 66.9%; height: 29px; margin-bottom: 2.5%; border-radius: 2px; border-style: none; background-color: #52595D;"> <br>
+                    <textarea name="message" rows="10" cols="20" placeholder="Write Message." style="width: 67%; border-radius: 2px; border-style: none; margin-bottom: 2.5%; height: 100%; background-color: #52595D;"></textarea> <br>
+                    <button type="submit" style="border-radius: 2px; border-style: none; height: 30px; margin-left: 50%; background-color: #FFA500; color: white;">Send Message</button>
+                  </div>
+                  <div style="float: right; width: 40%;">
+                    <h2 style="color: #FFA500;">NEED TO KNOW MORE ON DETAILS. GET IN TOUCH</h2>
+                    <p style="color: #BDBDBD;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat sunt provident itaque quisquam voluptatum, fuga ratione veritatis dolores! Eos vel optio dolorum nulla enim ipsum in!</p>
+                    <button type="submit" style="border-radius: 2px; border-style: none; height: 30px; background-color: #FFA500; color: white;">Get Started</button>
+                  </div>
+                </div>
+                <!-- !Contact -->
+
+           </div>
+        </div>
+    </section>
+
+    <section id="footer" style="background-color: rgb(69, 70, 71); margin-left: -10%; margin-right: -0.53%; padding-bottom: 2%; margin-bottom: -1%;">
+      <div class="footer" style="margin-left: 17%; margin-right: 17%; margin-top: 35%; font-size: 20px; ">
+        <div style="float: left; width: 30%; font-family: 'Encode Sans', sans-serif; margin-top: 7%;">
+          <div class="about" style="color: #BDBDBD;">
+             <h3 style="color: #BDBDBD;">ABOUT</h3>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint dolore aut nostrum sequi dolorem sed, hic iste repellendus voluptatibus.</p>
+          </div>
+        </div>
+        <div style="float: right; width: 33.33%; font-family: 'Encode Sans', sans-serif; margin-top: 7%;">
+          <div class="subscribe">
+            <h3 style="color: #BDBDBD;">SUBSCRIBE TO NEWSLETTER</h3>
+            <input type="email" name="email" placeholder="Enter Email" style="border-radius: 2px; border-style: none; height: 30px; border-color: #BDBDBD; background-color: #292929; border-style: ridge; border-width: 1px; border-right: none;">
+            <button type="submit" style="border-radius: 2px; border-style: none; height: 33.9px; margin-left: -10px; background-color: #FFA500;">subscribe</button>
+
+            <div class="follow">
+              <h3 style="color: #BDBDBD;">FOLLOW US</h3>
+             <span style="color: #52595D; margin-right: 10%;">
+               <i class="fa fa-facebook" aria-hidden="true"></i>
+              </span>
+             <span style="color: #52595D; margin-right: 10%;">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+             </span>
+             <span style="color: #52595D; margin-right: 10%;">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+             </span>
+             <span style="color: #52595D;">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+             </span>
+            </div>
+
+          </div>
+        </div>
+        <div style="float: right; width: 33.33%; font-family: 'Encode Sans', sans-serif; margin-bottom: 10%; margin-top: 7%;">
+          <div class="features" style="text-decoration: none;">
+            <h3 style="color: #BDBDBD;">FEATURES</h3>
+            <a href="#" style="text-decoration: none; color: #52595D;">About Us</a> <br>
+            <a href="#" style="text-decoration: none; color: #52595D;">Press Releases</a> <br>
+            <a href="#" style="text-decoration: none; color: #52595D;">Testimonials</a> <br>
+            <a href="#" style="text-decoration: none; color: #52595D;">Terms of Service</a> <br>
+            <a href="#" style="text-decoration: none; color: #52595D;">Privacy</a> <br>
+            <a href="#" style="text-decoration: none; color: #52595D;">Contact Us</a>
+          </div>
+        </div>
+        <div style="width: 100%; font-family: 'Encode Sans', sans-serif;">
+          <hr style="color: #BDBDBD; width: 100%; margin-top: 40%;">
+          <p class="copy-right" style="margin-bottom: 5%; color: #BDBDBD; margin-top: 5%; text-align: center;"></p>
+        </div>
+      </div>
+    </section>
+
+</body>
+</html>
